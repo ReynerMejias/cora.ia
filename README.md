@@ -1,12 +1,26 @@
-# React + Vite
+# Cora 💬 — Asistente IA con Gemini
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Cora** es una aplicación de chat construida en React que utiliza la API de Google Gemini para ofrecer respuestas inteligentes. La interfaz es limpia, moderna y responsiva, optimizada tanto para escritorio como dispositivos móviles.
 
-Currently, two official plugins are available:
+## 🧠 Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Integración con **Gemini 1.5 Flash** de Google AI.
+- Interfaz de chat amigable tipo burbuja.
+- Soporte para respuestas con listas, saltos de línea y formato básico.
+- Diferenciación visual clara entre mensajes del usuario y de la IA.
+- Autoscroll y enfoque automático en el input.
+- Indicador de escritura (`typing`) para la IA.
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologías Usadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Vite recomendado)
+- Tailwind CSS
+- Google Generative AI SDK
+
+## 📦 Instalación
+
+1. Clona este repositorio:
+
+```bash
+git clone https://github.com/tu-usuario/cora.git
+cd cora
